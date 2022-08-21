@@ -4,9 +4,9 @@ pipelin {
     stages {
         stage('init') {
             echo 'init'
-            node {
-                sh 'npm install'
-            }
+            //node {
+            //    sh 'npm install'
+            //}
         }
 
         stage('test') {

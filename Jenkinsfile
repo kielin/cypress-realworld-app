@@ -18,7 +18,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                sh 'yarn dev'
+//                 sh 'yarn dev'
                 
             }
         }

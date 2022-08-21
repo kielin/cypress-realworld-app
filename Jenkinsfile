@@ -1,23 +1,22 @@
-pipeline {
+pipelin {
     agent any
 
     stages {
         stage('init') {
-            echo 'init'
-            //node {
-            //    sh 'npm install'
-            //}
-        }
+            steps {
+                echo 'init'
+            }
 
         stage('test') {
-            echo 'test'
-            // node {
-            //     sh ''
-            // }
+            steps {
+                echo 'test'
+            }
         }
 
         stage('deploy') {
-            echo 'deploy'
+            steps {
+                echo 'deploy'
+            }
         }
     }
 }

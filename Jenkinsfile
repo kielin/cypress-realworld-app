@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh 'yarn install'
+                sh 'PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true yarn install'
                 echo 'Finished Built..'
             }
         }

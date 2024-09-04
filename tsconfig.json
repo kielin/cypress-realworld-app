@@ -23,6 +23,7 @@
     "scripts",
     "backend",
     "src/__tests__",
-    "cypress/support/component.ts"
+    "cypress.d.ts",
+    "src/utils/portUtils.ts"
   ]
 }
